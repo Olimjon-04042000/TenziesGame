@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.container {
+    margin: 70px auto;
+    padding: 69px 75px;
+    background: white;
+    width: 590px;
+    border-radius: 10px;
+}
+
+.black-line {
+    padding: 30px 30px;
+    background-color: #0B2434;
+    border-radius: 10px;
+}
+
+.game-block {
+    padding: 33.28px 34.56px 33.92px 34.56px;
+    border-radius: 10px;
+    background: #F5F5F5;
+}
+
+.game-block .title {
+    color: #2B283A;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+    letter-spacing: -0.768px;
+}
+
+.game-block .desc {
+    font-family: 'Inter', sans-serif;
+    color: #4A4E74;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: -0.393px;
+    margin-bottom: 25px;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23.219px;
+    margin-bottom: 26px;
+}
+
+.btns .btn {
+    border-radius: 3.813px;
+    border: none;
+    background: #FFF;
+    color: #2B283A;
+    text-align: center;
+    font-size: 20.589px;
+    font-weight: 700;
+    width: 43px;
+    height: 43px;
+    transition: all 0.5s;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btns .btn:hover {
+    transform: translate(0, 2px) scale(1.2);
+}
+
+.roll-btn {
+    display: block;
+    text-align: center;
+    background: #5035FF;
+    color: #FFFFFF;
+    transition: all 0.5s;
+    font-size: 20px;
+    padding: 11px 33px;
+    border: none;
+    border-radius: 3.813px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.roll-btn:hover {
+    transform: translate(0, 2px) scale(1.2);
+}
